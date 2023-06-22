@@ -1,11 +1,14 @@
-# Telecom Churn analysis (EDA Python)
-## Project Overview
+#  Machine Learning Project
+# Analysis of Customer Churn in Telecommunication Industry Using Decision Trees and Random Forests
 
-#### The objective of this project is to analyze the churn rate of Orange S.A., a French telecom company, and identify the factors contributing to customer churn. We will use the Orange Telecom's Churn Dataset, which includes cleaned customer activity data and a churn label indicating whether a customer canceled their subscription.
-### Problem Statement
-#### The problem we aim to address is the customer churn rate in Orange Telecom. Customer churn refers to the number of customers who discontinue their subscription within a specific period. Our objective is to analyze the data and uncover the key factors responsible for customer churn. Based on our findings, we will provide recommendations to enhance customer retention.
-### business objectives
+## Introduction:
+#### Customer churn, the phenomenon of customers discontinuing their services with a company, poses significant challenges for businesses in the highly competitive telecommunication industry. Understanding the factors that contribute to customer churn and developing effective strategies to mitigate it are crucial for maintaining customer loyalty and improving business profitability. In this study, we analyze a dataset from a telecommunication company to gain insights into customer churn and explore the predictive capabilities of decision trees and random forests algorithms.
 
-#### 1.Identify key factors contributing to customer churn: By analyzing the customer activity data, we will look for patterns and correlations that indicate why customers are canceling their subscriptions. This understanding will help Orange Telecom take proactive measures to reduce churn.
+## Insights and Findings:
+#### The analysis reveals several valuable insights regarding customer churn. Firstly, higher monthly charges were found to be associated with increased churn rates, suggesting that pricing strategies should be carefully managed to retain customers. Additionally, customers with shorter tenure and lower total charges were more likely to churn, emphasizing the importance of building long-term relationships and providing value-added services. Furthermore, factors such as payment method, contract type, availability of online security and technical support, and age also showed significant correlations with churn.
 
-#### 2.Provide recommendations for customer retention: Based on our analysis results, we will propose actionable recommendations to Orange Telecom for retaining valuable customers. These recommendations may include targeted marketing campaigns, improved customer service, or service enhancements to address identified pain points.
+## Algorithm and Results:
+#### To predict customer churn and evaluate the performance of the algorithms, we employed decision trees and random forests. The decision tree algorithm employed a gini criterion with a maximum depth of 6 and a minimum samples leaf of 8. The resulting decision tree model achieved an accuracy of 93.17% on the test dataset, demonstrating its effectiveness in predicting churn. Similarly, the random forests algorithm, utilizing 100 decision trees, yielded an accuracy of 93.17% on the same test dataset. These results highlight the robustness and reliability of both algorithms in predicting customer churn.
+
+## Conclusion:
+#### The analysis of customer churn in the telecommunication industry provides valuable insights for businesses seeking to enhance customer retention and reduce churn rates. By understanding the key factors influencing churn, such as pricing, contract terms, and service features, companies can devise targeted strategies to improve customer satisfaction and loyalty. The decision tree and random forests algorithms showcased their predictive capabilities in identifying potential churners, enabling businesses to take proactive measures to retain at-risk customers. Ultimately, the findings of this study contribute to the body of knowledge in customer churn analysis and serve as a foundation for implementing data-driven strategies to mitigate churn and improve customer relationship management in the telecommunication industry.
